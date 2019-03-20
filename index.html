@@ -1,0 +1,1042 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+    p,ul,h1, h2, h3, a {font-family:roboto;}
+    p,h1, h2, h3, a {padding-left:10px; padding-right:10px; font-weight:100;}
+    p {padding-bottom:5px;}
+    ul {
+        padding-left:30px;k
+    }
+    hr {
+        border-top: 1px solid #rc0c0c0;
+    }
+
+    #hc-logo {
+        padding:0px;
+        vertical-align:middle;
+    }
+
+    #service-logo {
+        padding:0px;
+        margin:0px 3px;
+        vertical-align:middle;
+    }
+
+    #hc-breadcrumb {
+        padding:0px;
+        font-size:10px;
+        padding-left:10px;
+    }
+
+    .section-heading {
+        font-size:28px;
+        font-weight:500;
+        color:#000000;
+        margin-top:0px;
+        padding:10px 10px 10px 10px;
+    }
+
+    .sub-heading {
+        font-size:22px;
+        font-weight:500;
+        color:#000000;
+        margin:0px;
+        padding:5px 10px 5px 10px;
+    }
+
+    .light-font {
+        font-weight:100
+    }
+
+    #quick-links-col {
+        float: right;
+        padding-right:0px;
+        padding-left:25px;
+    }
+
+    #quick-links-row {
+
+    }
+
+    #content {
+        width:100%;
+        max-width:1170px;
+        min-height:400px;
+        margin:auto;
+        margin-top:0px;
+        padding-bottom:20px;
+        font-family:roboto;
+        background-color:#ffffff;
+        font-size:14px;
+        color:#000000;
+        line-height:1.35;
+    }
+
+    #content a {
+        color:#F68B1E;
+    }
+
+    .top-banner {
+        width:100%;
+        height:100px;
+        box-sizing:border-box;
+        border-bottom:1px solid #c0c0c0;
+        padding-top:15px;
+    }
+
+    .splash-banner {
+        background-image:url("[MEDIA_BASE_URL]/cms/2012 September 18/daraz-experience-banner.png");
+        height:200px;
+        padding:0px;
+        padding-top:76px;
+        border-bottom:1px solid #c0c0c0;
+        background-color:#F8F8F8
+    }
+
+    .splash-banner:before {
+        content: "The Daraz Experience";
+        font-size: 38px;
+        font-weight: 500;
+        background: rgba(300, 300, 300, .7);
+        width: 100%;
+        display:block;
+        text-align: center;
+        font-family: roboto;
+    }
+
+    .splash-usp-box {
+        width:100%;
+        background-color:rgba(85,85,85,.9);
+        padding:0px;
+        color:#fff;
+        padding:2% 0;
+    }
+    .monotone {
+        color:#fff;
+    }
+
+    .blade-l {
+        border-bottom: 60px solid #f68b1e;
+        border-right: 50px solid rgba(0, 0, 0, 0);
+        height: 0;
+        float:left;
+        box-sizing: initial;
+
+    }
+
+    .blade-r {
+        border-bottom: 60px solid #f68b1e;
+        border-left: 50px solid rgba(0, 0, 0, 0);
+        height: 0;
+        float:right;
+        box-sizing: initial;
+
+    }
+
+    .banner-elements{
+        margin-top:40px;
+        vertical-align:middle;
+        position: relative;
+        padding:0px 20px;
+        height:288px;
+    }
+
+    .banner-heading {
+        color:#000000;
+        font-size:40px;
+        margin:5px 0px 0px 0px;
+        font-weight:100;
+        padding:0px;
+    }
+
+    .banner-text {
+        position:relative;
+        font-size:24px;
+        margin:6px 2px;
+        font-weight:100;
+        padding-left:12px;
+        color:#F68B1E;
+        padding:0px;
+    }
+
+    .banner-btns {
+        margin:5px 3px 0px 3px;
+        width:45%;
+        padding:5px;
+    }
+
+    .content-row {
+        display:inline-block;
+        width:100%;
+        box-sizing:border-box;
+    }
+    .content-column {
+        margin:0px;
+        display:inline-block;
+        box-sizing:border-box;
+        vertical-align:top;
+    }
+
+    .hero-img {
+        margin-top:30px;
+    }
+
+    .usp-box {
+        text-align:center;
+    }
+
+    .usp-img {
+        text-align:center;
+        padding-top:10px;
+    }
+    .usp-heading {
+        text-align:center;
+        font-size:18px;
+        margin:1% 0;
+    }
+    .usp-text {
+        text-align:justify;
+        padding:0px 20px;
+        margin:1% 0;
+    }
+
+    .experience-nav a {
+        padding: 10px 20px;
+        display: table-cell;
+        border-left: 1px solid;
+        margin: -2px;
+        width: 168px;
+        height: 67px;
+        line-height: 16px;
+        vertical-align: middle;
+        font-size: 13px;
+        font-weight: bold;
+        color: #aaa !important;
+        background-color: #555;
+        text-align: center;
+    }
+
+    .experience-nav a:first-child {
+        border-left: none;
+    }
+
+    .experience-nav a:hover{background-color:#F68B1E!important;color:#fff!important;}
+    .experience-nav a:active{background-color:#F68B1E !important;color:#fff!important;}
+
+    .contained {
+        padding:0px 50px;
+    }
+
+    .justified {
+        text-align:justify;
+    }
+
+    .video-row {
+        padding:0px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .aspect-ratio {
+        position: relative;
+        width: 100%;
+        height: 0px;
+        padding-bottom: 56.25%;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position:absolute;
+    }
+
+    .sm {
+        width:33.03%;
+        box-sizing:border-box;
+    }
+    .md {
+        width:49.78%;
+        box-sizing:border-box;
+
+    }
+    .lg {
+        width:66.41%;
+        box-sizing:border-box;
+
+    }
+
+    .full {
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .left {
+        float:left;
+    }
+
+    .right {
+        float:right;
+    }
+
+    .nav-menu {
+        margin:auto;
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .center {
+        text-align:center;
+        vertical-align:middle;
+    }
+
+    .gray {
+        background-color:#eee
+    }
+
+    .padded {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .button {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        margin-right: 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    .tg  {border-collapse:collapse;border-spacing:0; width:75%; margin:auto;}
+    .tg td{font-family:roboto, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+    .tg .tg-title{font-weight:bold; font-size:20px; text-align:center; vertical-align:middle;}
+    .tg .tg-data{vertical-align:top; font-size:16px}
+
+
+    .mysteps{
+        width:100%;
+        border-bottom:3px solid #fff;
+        position:relative;
+        display:inline-block;
+    }
+
+    .myimg {
+        text-align:center;
+        width:20%;
+        height:100%;
+        vertical-align:middle;
+    }
+
+    .stepnum{
+        font-size: 40px;
+        color: #f90;
+        width:9%;
+        vertical-align:middle;
+        text-align:center;
+    }
+
+
+    .stepcontent {
+        width:79%;
+        vertical-align:middle;
+        padding-right:30px;
+    }
+
+
+    .comparison-box {
+        border-bottom:5px solid #fff;
+    }
+
+    .menu-block {
+        margin-bottom:3px;
+        background-color:#eee;
+        text-align:center;
+        padding:0px;
+    }
+
+    .menu-block.current,
+    .menu-block:hover{background-color: #C0C0C0;}
+
+    .menu-img {
+        text-align:center;
+        padding-top:10px;
+    }
+
+    .menu-label {
+        font-size:16px;
+    }
+
+    .box-border {
+        border:1px solid #555;
+    }
+    .cta-strip {
+        background-color:#555;
+        color:#fff;
+    }
+    .btns-label {
+        font-size:16px;
+        color:#fff;
+        margin:0px;
+    }
+
+    .two-line {
+        margin-top:-21px;
+    }
+
+    .label-box {
+        background-color:rgba(178,0,178,0.9);
+        color:#fff;
+        width:90%;
+        margin-left:5%;
+        position:relative;
+        top:-14px;
+    }
+
+    .procurement {
+        padding:5px 5px;
+    }
+
+    .zero-padding {
+        padding:0px;
+    }
+    .third {
+        width:32.85%;
+    }
+
+    .half-qtr {
+        width:49.3%;
+    }
+    .qtr-half {
+        width:24.45%;
+    }
+    .qtr  {
+        width:24.45%;
+    }
+
+
+    .btns{display: inline-block;
+        border-radius: 5px;
+        text-align: center;
+        background-color:#f68b1e;
+        margin-top:5px;
+    }
+
+    .form-horizontal {
+        background-color:#eee;
+        border-radius:5px;
+        margin:0px;
+        margin-top:-280px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align:left;
+        padding:0px;
+        font-family:roboto;
+        padding-bottom:10px;
+    }
+    .form-wrapper {
+        padding-left:20%;
+        padding-right:10%;
+
+    }
+    .form-heading {
+        background-color:#555;
+        padding:5px;
+        text-align:center;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        margin-bottom:5px;
+        color:#fff;
+    }
+    .form-group {
+        padding-left:10%;
+        padding-right:10%;
+        margin-top:5px;
+    }
+
+    .form-fields {
+
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 5px;
+
+    }
+
+    blockquote {
+        margin: 10px 5px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+        color:#fff;
+    }
+    blockquote:before {
+        color: #f68b1e;
+        content: open-quote;
+        font-size: 6em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+        font-family:monospace;
+    }
+
+    blockquote:after {
+        color: #f68b1e;
+        content: close-quote;
+        font-size: 6em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+        position:relative;
+        top:10px;
+        font-family:monospace;
+    }
+
+    blockquote p {
+        display: inline;
+        font-size:21px;
+    }
+    .quote-author {
+        margin:0px;
+        font-size:19px;
+        color:#fff;
+        text-align:center;
+    }
+    .caption-heading {
+        text-align:right;
+        padding-left:60px;
+    }
+
+
+    .person {
+        margin-top:-140px;
+    }
+
+    .experience-section {
+        background:url("[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/BG.jpg") repeat-y;
+    }
+
+    .experience-heading {
+        margin: 0px;
+        font-size: 40px;
+        font-weight: 100;
+        text-align: left;
+        color: #fff;
+        position: relative;
+        padding: 0px;
+        top: -5px;
+    }
+
+    .experience-mid {
+        width: 90%;
+        margin: -15px 5% 30px 5%;
+    }
+
+    .mid-heading {
+        font-size: 30px;
+        font-weight: 500;
+        color: #000000;
+        margin: 0px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .mid-list {
+        line-height:30px;
+        font-size:18px;
+    }
+
+    .experience-quote {
+        background-image:url("[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/gray-bg.jpg");
+    }
+
+    .experience-quote-text {
+        width:79%;
+    }
+
+    .experience-mascot {
+        width:20%;
+    }
+
+    .experience-icon {
+        position: relative;
+        top: -15px;
+        margin:0 30px;
+    }
+
+    .header-box-l {
+        text-align:left;
+        position:relative;
+        top:-60px;
+        margin-bottom:-35px;
+    }
+
+    .header-box-r {
+        text-align:right;
+        position:relative;
+        top:-60px;
+        margin-bottom:-35px;
+    }
+
+    .experience-nav-button {}
+
+
+    @media only screen and (min-width : 781px) {
+        .main-block-menu {padding-right:10px;}
+
+
+    .fixed {
+        position: fixed;
+        top: 55px;
+        background-color: transparent;
+        z-index: 10;
+        width: 100%;
+    }
+
+    }
+
+    @media only screen and (max-width : 780px) {
+        p {margin-top: 5px; margin-bottom: 5px;}
+        ul {margin-top: 5px; margin-bottom: 5px;}
+        .sm {width:100%;}
+        .md {width:100%;}
+        .lg {width:100%;}
+        .top-banner {width:100%; height:80px;}
+        .banner-heading {font-size:40px;}
+        .banner-text {font-size:24px; margin-top:0px;}
+        .hero-img {margin-top:100px;}
+        .logo-img {height:52px; width:150px; min-width:120px;}
+        #hc-logo {position:absolute; max-width:47%; max-height:47%}
+        .heading-box {min-width:200px; position:relative; left:150px; top:10px; min-width: 214px; position:relative; left:156px; top:10px;}
+        .sub-heading {margin-bottom:0px; padding:5px 0px 5px 0px; text-align:center}
+        .section-heading {margin-bottom:0px; padding:5px 0px 5px 0px; text-align:center}
+        .half-qtr {width:24.45%;}
+        .menu-label {font-size:16px;}
+        .main-block-menu {padding-right:0px;}
+        .two-line {margin-top:-21px;}
+        .form-horizontal {margin-top:10px; box-shadow:none; border:1px solid #c0c0c0}
+        .form-wrapper {padding:0px 10%; margin-bottom:5px;}
+        .banner-elements{padding-top:20px; text-align:center; margin-top:10px;}
+        .procurement {padding:10px 10px; max-width:450px;}
+        .quote-author {font-size:16px;}
+        .caption-heading {text-align:center; padding-left:10px; padding-right:10px;}
+        .cta-strip {font-size:20px;}
+        .usp-text {padding:0 20%}
+        .contained {padding:0 20%}
+        .splash-usp-box {padding:10px 0;}
+
+        .experience-heading {font-size: 2.5em; top: -15px;}
+        .mid-heading {margin-top: 20px; padding: 0; font-size: 1.85em;}
+        .mid-heading-r{text-align: left}
+        .mid-list-r{float: right; margin-left: 55px;}
+        .person {margin-top: -158px;}
+        .mid-list{line-height: 38px;font-size: 20px;}
+        blockquote p {font-size: 18px;}
+        .fixed {top:0;display:none}
+
+
+    }
+
+    @media only screen and (max-width : 480px) {
+        p {margin-top: 5px; margin-bottom: 5px;}
+        ul {margin-top: 5px; margin-bottom: 5px;}
+        .sm {width:100%;}
+        .md {width:100%;}
+        .lg {width:100%;}
+        .top-banner {width:100%; height:70px;}
+        .banner-heading {font-size:36px;}
+        .banner-text {font-size:18px;}
+        .logo-img {height:75%; width:75%; min-width:120px; max-width:150px; max-height:52px;}
+        #hc-logo {position:absolute; max-width:47%; max-height:47%}
+        .heading-box {min-width:200px; position:relative; left:150px; top:10px; min-width: 214px; position:relative; left:125px; top:5px;}
+        .sub-heading {margin-bottom:0px;}
+        .section-heading {margin-bottom:0px;}
+        .third {width:49.3%;}
+        .main-block-menu {padding-right:0px;}
+        .two-line {margin-top:-21px;}
+        .procurement {padding:5px 10px;}
+        .qtr-half {width:49.3%;}
+        .form-wrapper {padding:0px 0px;}
+        .form-horizontal {border-radius:0px;}
+        .form-heading {border-top-right-radius:0px; border-top-left-radius:0px;}
+        .usp-text {padding:0 10%}
+        .contained {padding:0 10%}
+
+        .experience-nav{display: none}
+        .experience-icon{width: 12%;top: 10px;margin: 0 22px;}
+        .blade-l {border-bottom: 40px solid #f68b1e;}
+        .blade-r {border-bottom: 40px solid #f68b1e;}
+        .experience-heading{font-size: 1.5em;top: 11px;}
+        .experience-mid{margin: 0px 5% 30px 5%;}
+        .mid-heading {font-size: 1.5em;}
+        .mid-list{line-height: 26px;font-size: 15px;width: 82%;}
+        blockquote p { font-size: 12px; }
+        .quote-author {font-size: 12px;}
+        .experience-quote-text { width: 70%; }
+        .experience-mascot {width: 29%;}
+        .person { margin-top: -128px;}
+    }
+    @media only screen and (max-width : 420px) {
+        .experience-icon{width: 12%;top: 20px;margin: 0 11px;}
+        .blade-l {border-bottom: 26px solid #f68b1e;}
+        .blade-r {border-bottom: 26px solid #f68b1e;}
+        .experience-heading{font-size: 1em;top: 20px;}
+        blockquote p {font-size: 8px; }
+        .quote-author {font-size: 12px;}
+        .experience-quote-text {width: 69%; }
+        .experience-mascot {width: 29%;}
+        .person {margin-top: -103px;}
+    }
+</style>
+
+<div id="content">
+
+    <div class="splash-banner"></div>
+
+    <div id="GenuineProducts" class="content-row">
+        <div class="experience-nav">
+
+            <a href="#GenuineProducts" class="" style="">100% Genuine Products</a>
+
+            <a href="#SafeSecurePayment" class="" style="">Safe & Secure Payment</a>
+
+            <a href="#FreeEasyReturns" class="" style="">Free & Easy Returns</a>
+
+            <a href="#FastReliableShipping" class="" style="">Fast & Reliable Shipping</a>
+
+            <a href="#DarazFirst" class="" style="">Daraz First</a>
+
+            <a href="#BestCustomerCare" class="" style="">Best Customer Care</a>
+
+            <a href="#DarazApp" class="" style="">Daraz App</a>
+
+        </div>
+    </div>
+
+    <!--left-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-l lg"></div>
+        <div class="content-row header-box-l">
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_6.png" alt=""/></span>
+            <span class="experience-heading">100% Genuine Products</span>
+
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/iC8UOPNRMRs?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading">The best assortment of products from leading brands</p>
+
+                <ul class="mid-list">
+                    <li>Genuine products in original packaging</li>
+                    <li>All the leading brands</li>
+                    <li>An assortment of more than 100,000 products</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="SafeSecurePayment" class="content-row experience-quote">
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>At Daraz, we always endeavor to give our customers the best selection of 100% genuine products from top brands. We have put in the most stringent standards for our sellers to ensure they only stock genuine products.</p>
+                </blockquote>
+            </div>
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Mr.-Shahzad.png" alt="" />
+                <p class="quote-author"><strong> Mr. Shahzad Anwar</strong>
+                    <br>Chief Commercial Officer</p>
+            </div>
+        </div>
+    </div>
+
+    <!--right-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-r lg"></div>
+        <div class="content-row header-box-r">
+            <span class="experience-heading">Safe &amp; Secure Payments</span>
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon-7.png" alt=""/></span>
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;float:right;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/VpzwlapnL4A?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading mid-heading-r">Convenience you can trust</p>
+
+                <ul class="mid-list mid-list-r">
+                    <li>Cash on Delivery - Pay at your doorstep</li>
+                    <li>Convenient online payments - Pay with Mobile Wallets, Debit/Credit Cards and via Bank Transfers</li>
+                    <li>Highest security standards - Be secure</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="FreeEasyReturns" class="content-row experience-quote">
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Mr.-Farzan-Shaikh.png" alt="" />
+                <p class="quote-author"><strong> Mr. Farzan Shaikh</strong>
+                    <br>Head of Payments</p>
+            </div>
+
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        Our security standards match the very best e-commerce platforms in the world, which my team thoroughly tests and monitors so we can provide you the most secure and convenient payment options.
+                    </p>
+                </blockquote>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--left-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-l lg"></div>
+        <div class="content-row header-box-l">
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_1.png" alt=""/></span>
+            <span class="experience-heading">Free &amp; Easy Returns</span>
+
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/TfoyKXDWJZw?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading">Keep what you love</p>
+
+                <ul class="mid-list">
+                    <li>Returns and replacements are easy and free of charge</li>
+                    <li>Return conveniently within 7 days of delivery</li>
+                    <li>Decide for pickup or drop-off - absolutely no risk involved</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="FastReliableShipping" class="content-row experience-quote">
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        We want you to have the best experience every time you shop with Daraz, that is why we made our returns process simple and quick! 
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Ms.-Amna-Naeem-.png" alt="" />
+                <p class="quote-author"><strong> Ms. Amna Naeem</strong>
+                    <br>Head of Issue Resolution</p>
+            </div>
+        </div>
+    </div>
+
+    <!--right-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-r lg"></div>
+        <div class="content-row header-box-r">
+            <span class="experience-heading">Fast &amp; Reliable Shipping</span>
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_2.png" alt=""/></span>
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;float:right;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/OWyNX8ER7D4?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading mid-heading-r">Your favorite products delivered right to your doorstep</p>
+
+                <ul class="mid-list mid-list-r">
+                    <li>Fast and secure delivery all across Pakistan</li>
+                    <li>Delivered to your home or office, or wherever you are</li>
+                    <li>Track your order online</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="DarazFirst" class="content-row experience-quote">
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Mr.-Umer-Gul.png" alt="" />
+                <p class="quote-author"><strong> Mr. Umer Gul</strong>
+                    <br>Head of Logistics</p>
+            </div>
+
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        We ensure that our delivery service agents as well as our logistics partners take it upon them to ensure the product reaches you in the best condition in the least amount of time.
+                    </p>
+                </blockquote>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--left-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-l lg"></div>
+        <div class="content-row header-box-l">
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_-3.png" alt=""/></span>
+            <span class="experience-heading">Daraz First</span>
+
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/Y3O_EDOum-I?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading">Our free premium service for Karachi, Islamabad and Lahore</p>
+
+                <ul class="mid-list">
+                    <li>Best selling items from selected brands</li>
+                    <li>No “Stock-Outs”</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="BestCustomerCare" class="content-row experience-quote">
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        With Daraz First, we are looking to provide you with the fastest premium shipping experience. To provide this innovative service, we have created a cutting-edge last-mile delivery infrastructure to ensure that you always get the best experience.
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Mr.-Shahrukh-Ghazali.png" alt="" />
+                <p class="quote-author"><strong> Mr. Shahrukh Ghazali</strong>
+                    <br>Head of Daraz First</p>
+            </div>
+        </div>
+    </div>
+
+    <!--right-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-r lg"></div>
+        <div class="content-row header-box-r">
+            <span class="experience-heading">Best Customer Care</span>
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_4.png" alt=""/></span>
+
+        </div>
+
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;float:right">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/8cD8X1DPm4o?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading mid-heading-r">Because we care about you all the time</p>
+
+                <ul class="mid-list mid-list-r">
+                    <!--<li>Reachable via email, chat and phone</li>
+                    <li>Less than 2 hour response time during business hours</li>
+                    <li>100% Complaint Resolution</li>-->
+
+                    <li>Reachable via email, chat and phone</li>
+                    <li>Fastest response rate for all your queries, concerns and feedback</li>
+                    <li>100% Complaint Resolution</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="DarazApp" class="content-row experience-quote">
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Mr.-Gauhar-Hassan.png" alt="" />
+                <p class="quote-author"><strong> Mr. Gauhar Hassan</strong>
+                    <br>Head of Customer Services</p>
+            </div>
+
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        Customer satisfaction is extremely important to us. Our customer service agents are dedicated to fully satisfying all customer requests, and delivering smiles each day.
+                    </p>
+                </blockquote>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--left-->
+    <div class="content-row experience-section" style="margin:20px 0px;">
+        <div class="blade-l lg"></div>
+        <div class="content-row header-box-l">
+            <span><img class="experience-icon" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Icon_5.png" alt=""/></span>
+            <span class="experience-heading">Daraz App</span>
+
+        </div>
+        <div class="content-row experience-mid">
+
+            <div class="content-column md" style="padding:0px; vertical-align:middle;">
+                <div class="aspect-ratio">
+                    <iframe class="video" src="https://www.youtube.com/embed/o9xjwVMzl3w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="content-column md padded" style="vertical-align:top;">
+                <p class="mid-heading">The power of the Daraz Experience in your hands - anytime, anywhere</p>
+
+                <ul class="mid-list">
+                    <li>Fast access and effortless shopping</li>
+                    <li>Get real-time alerts and notifications</li>
+                    <li>Maintain wishlists of your favorite items</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="content-row experience-quote">
+            <div class="content-column experience-quote-text">
+                <blockquote>
+                    <p>
+                        The Daraz app gives you a clean interface with access to more than 100,000 products from the top brands on your fingertips at all times.
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="content-column experience-mascot" style="text-align:right;">
+                <img class="person" src="[MEDIA_BASE_URL]/cms/2017/W50/daraz-exp/Ms.-Kanwal-Jawed.png" alt="" />
+                <p class="quote-author"><strong> Ms. Kanwal Jawed</strong>
+                    <br>Head of Mobile Design</p>
+            </div>
+        </div>
+    </div>
+
+</div>
